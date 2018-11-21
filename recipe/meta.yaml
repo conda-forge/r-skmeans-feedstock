@@ -14,8 +14,8 @@ source:
   sha256: b67aed3ed58399d2b092d00383103a98264db96831706b47f8c05d533de516a9
 
 build:
-  number: 0
-  skip: true  # [win32]
+  noarch: generic
+  number: 1000
 
   rpaths:
     - lib/R/lib/
@@ -45,8 +45,7 @@ about:
   summary: Algorithms to compute spherical k-means partitions. Features several methods, including
     a genetic and a fixed-point algorithm and an interface to the CLUTO vcluster program.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
