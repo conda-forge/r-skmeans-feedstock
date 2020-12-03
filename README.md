@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=skmeans
 
 Package license: GPL-2
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-skmeans-feedstock/blob/master/LICENSE.txt)
 
 Summary: Algorithms to compute spherical k-means partitions. Features several methods, including a genetic and a fixed-point algorithm and an interface to the CLUTO vcluster program.
-
-
 
 Current build status
 ====================
