@@ -1,4 +1,4 @@
-{% set version = "0.2-14" %}
+{% set version = "0.2-15" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/skmeans_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/skmeans/skmeans_{{ version }}.tar.gz
-  sha256: 18eb6d8e10a41ca6ee3ae34df7e2fb38f4f11e96e0a1db41c16386c9db4f77ce
+  sha256: 81559336e21bbde02f58dff3f06aa70c30f7caa500e5c58b9874b5306700089b
 
 build:
   noarch: generic
-  number: 1
+  number: 0
 
   rpaths:
     - lib/R/lib/
