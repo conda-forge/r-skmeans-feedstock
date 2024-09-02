@@ -1,4 +1,4 @@
-{% set version = "0.2-16" %}
+{% set version = "0.2-17" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -10,11 +10,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/skmeans_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/skmeans/skmeans_{{ version }}.tar.gz
-  sha256: 3aab34ab867cf53deafc3f16164bf8fed73ac4543897f1a1903b0682e5742f66
+  sha256: 7cc713a85656af395d3bf8b890da6e4596e0dcf3908a32481d3ab2db11890619
 
 build:
   noarch: generic
-  number: 1
+  number: 0
 
   rpaths:
     - lib/R/lib/
